@@ -1,0 +1,33 @@
+/* Style for the container div */
+div {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Style for the image */
+img {
+  width: 350px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Style for the name */
+h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+/* Hover effect for the image */
+img:hover {
+  transform: scale(1.02); /* Increase the size of the image on hover */
+}
+
+/* Hover effect for the name */
+h4:hover {
+  color: #ff6600;
+  transform: scale(1.05);
+}
